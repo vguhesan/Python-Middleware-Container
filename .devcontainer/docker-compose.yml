@@ -13,7 +13,7 @@ services:
     entrypoint: ["/bin/sh", "-c"]
     command:
       - |
-        pip install -r /workspaces/middleware/requirements.txt
+        pip install -r /workspaces/Python-Middleware-Container/requirements.txt
         sleep infinity
 
     # Runs app on the same network as the database container, allows "forwardPorts" in devcontainer.json function.
